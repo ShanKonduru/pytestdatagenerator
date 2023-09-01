@@ -1,0 +1,9 @@
+column_name,column_type,constraints,reference
+empno,"number(4,0)	",primary key,
+ename,varchar2(10),Not Null,
+job,varchar2(9),Not Null,
+mgr,"number(4,0)		",Not Null,
+hiredate,date,Not Null,
+sal,"number(7,2)		",Not Null,
+comm,"number(7,2)		",,
+deptno,"number(2,0)",foreign key,dept(deptno)
